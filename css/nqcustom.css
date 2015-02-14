@@ -1,0 +1,39 @@
+/*
+ * estilos personalizados para a web de NQysit
+ */
+
+.archistico {
+    font-family: archistico_simple; 
+}
+
+.orbitron {
+    font-family: orbitron_medium;
+}
+
+header .intro-text .intro-lead-in-orbitron {
+    margin-bottom: 25px;
+    font-family: orbitron_medium;
+    font-size: 40px;
+    font-style: italic;
+    line-height: 40px;
+}
+
+header .intro-text .intro-lead-in-archistico {
+    margin-bottom: 25px;
+    font-family: archistico_simple; 
+    font-size: 40px;
+    font-style: italic;
+    line-height: 40px;
+}
+
+header .intro-text .intro-lead-in-orbitron2 {
+    margin-bottom: 25px;
+    font-family: orbitron_light;   
+    font-size: 40px;
+}
+
+header .intro-text .intro-lead-in-archistico2 {
+    margin-bottom: 25px;
+    font-family: archistico_simple;   
+    font-size: 50px;
+}
