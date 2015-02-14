@@ -118,12 +118,12 @@ fieldset[disabled] .btn-primary.active {
 }
 
 .btn-xl {
-    padding: 20px 40px;
+    padding: 10px 20px;
     border-color: #fed136;
     border-radius: 3px;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 18px;
+    font-size: 14px;
     font-weight: 700;
     color: #fff;
     background-color: #fed136;
@@ -281,7 +281,7 @@ header .intro-text {
 
 header .intro-text .intro-lead-in {
     margin-bottom: 25px;
-    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: orbitron_medium;
     font-size: 22px;
     font-style: italic;
     line-height: 22px;
@@ -304,7 +304,7 @@ header .intro-text .intro-heading {
 
     header .intro-text .intro-lead-in {
         margin-bottom: 25px;
-        font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-family: orbitron_medium;
         font-size: 40px;
         font-style: italic;
         line-height: 40px;
@@ -651,68 +651,68 @@ aside.clients img {
     margin: 50px auto;
 }
 
-section#contacto {
+section#contact {
     background-color: #222;
     background-image: url(../img/map-image.png);
     background-position: center;
     background-repeat: no-repeat;
 }
 
-section#contacto .section-heading {
+section#contact .section-heading {
     color: #fff;
 }
 
-section#contacto .form-group {
+section#contact .form-group {
     margin-bottom: 25px;
 }
 
-section#contacto .form-group input,
-section#contacto .form-group textarea {
+section#contact .form-group input,
+section#contact .form-group textarea {
     padding: 20px;
 }
 
-section#contacto .form-group input.form-control {
+section#contact .form-group input.form-control {
     height: auto;
 }
 
-section#contacto .form-group textarea.form-control {
+section#contact .form-group textarea.form-control {
     height: 236px;
 }
 
-section#contacto .form-control:focus {
+section#contact .form-control:focus {
     border-color: #fed136;
     box-shadow: none;
 }
 
-section#contacto::-webkit-input-placeholder {
+section#contact::-webkit-input-placeholder {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     color: #bbb;
 }
 
-section#contacto:-moz-placeholder {
+section#contact:-moz-placeholder {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     color: #bbb;
 }
 
-section#contacto::-moz-placeholder {
+section#contact::-moz-placeholder {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     color: #bbb;
 }
 
-section#contacto:-ms-input-placeholder {
+section#contact:-ms-input-placeholder {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     color: #bbb;
 }
 
-section#contacto .text-danger {
+section#contact .text-danger {
     color: #e74c3c;
 }
 
