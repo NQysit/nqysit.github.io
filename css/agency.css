@@ -7,7 +7,7 @@
 body {
     overflow-x: hidden;
     font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
-    background-color: #e9e9e9;
+    background-color: #fff;
 }
 
 .text-muted {
@@ -15,7 +15,7 @@ body {
 }
 
 .text-primary {
-    color: #fed136;
+    color: #006600;
 }
 
 p {
@@ -36,14 +36,14 @@ a.active {
 }
 
 a {
-    color: #fed136;
+    color: #006600;
 }
 
 a:hover,
 a:focus,
 a:active,
 a.active {
-    color: #fec503;
+    color: #006600;
 }
 
 h1,
@@ -62,8 +62,7 @@ h6 {
 }
 
 .bg-light-gray {
-    //background-color: #f7f7f7;
-    background-color: #ccc;
+    background-color: #f7f7f7;
 }
 
 .bg-darkest-gray {
@@ -71,12 +70,12 @@ h6 {
 }
 
 .btn-primary {
-    border-color: #fed136;
+    border-color: #006600;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     color: #fff;
-    background-color: #fed136;
+    background-color: #006600;
 }
 
 .btn-primary:hover,
@@ -86,7 +85,7 @@ h6 {
 .open .dropdown-toggle.btn-primary {
     border-color: #f6bf01;
     color: #fff;
-    background-color: #fec503;
+    background-color: #006600;
 }
 
 .btn-primary:active,
@@ -110,25 +109,25 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-    border-color: #fed136;
-    background-color: #fed136;
+    border-color: #006600;
+    background-color: #006600;
 }
 
 .btn-primary .badge {
-    color: #fed136;
+    color: #006600;
     background-color: #fff;
 }
 
 .btn-xl {
     padding: 10px 20px;
-    border-color: #fed136;
+    border-color: #006600;
     border-radius: 3px;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 14px;
     font-weight: 700;
     color: #fff;
-    background-color: #fed136;
+    background-color: #006600;
 }
 
 .btn-xl:hover,
@@ -138,7 +137,7 @@ fieldset[disabled] .btn-primary.active {
 .open .dropdown-toggle.btn-xl {
     border-color: #f6bf01;
     color: #fff;
-    background-color: #fec503;
+    background-color: #006600;
 }
 
 .btn-xl:active,
@@ -162,12 +161,12 @@ fieldset[disabled] .btn-xl:active,
 .btn-xl.disabled.active,
 .btn-xl[disabled].active,
 fieldset[disabled] .btn-xl.active {
-    border-color: #fed136;
-    background-color: #fed136;
+    border-color: #006600;
+    background-color: #006600;
 }
 
 .btn-xl .badge {
-    color: #fed136;
+    color: #006600;
     background-color: #fff;
 }
 
@@ -178,14 +177,15 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-brand {
     font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
-    color: #fed136;
+    color: #006600;
+    text-shadow: 0.02em 0.02em #fff;
 }
 
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-brand:active,
 .navbar-default .navbar-brand.active {
-    color: #fec503;
+    color: #006600;
 }
 
 .navbar-default .navbar-collapse {
@@ -193,8 +193,8 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-toggle {
-    border-color: #fed136;
-    background-color: #fed136;
+    border-color: #006600;
+    background-color: #006600;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
@@ -203,7 +203,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-    background-color: #fed136;
+    background-color: #006600;
 }
 
 .navbar-default .nav li a {
@@ -217,19 +217,19 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
     outline: 0;
-    color: #fed136;
+    color: #006600;
 }
 
 .navbar-default .navbar-nav>.active>a {
     border-radius: 0;
     color: #fff;
-    background-color: #fed136;
+    background-color: #006600;
 }
 
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
     color: #fff;
-    background-color: #fec503;
+    background-color: #006600;
 }
 
 @media(min-width:768px) {
@@ -373,7 +373,7 @@ section h3.section-subheading {
     width: 100%;
     height: 100%;
     opacity: 0;
-    background: rgba(254,209,54,.9);
+    background: rgba(0,102,0,0.7);
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
@@ -408,9 +408,7 @@ section h3.section-subheading {
     padding: 25px;
     max-width: 400px;
     text-align: center;
-    //background-color: #fff;
-    //background-color: #f7f7f7;
-    background-color: #e9e9e9;
+    background-color: #fff;
 }
 
 #proxectos .portfolio-item .portfolio-caption h4 {
@@ -497,7 +495,7 @@ ul.social-buttons li a {
 ul.social-buttons li a:hover,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:active {
-    background-color: #fed136;
+    background-color: #006600;
 }
 
 .btn:focus,
@@ -585,12 +583,12 @@ ul.social-buttons li a:active {
 
 ::-moz-selection {
     text-shadow: none;
-    background: #fed136;
+    background: #006600;
 }
 
 ::selection {
     text-shadow: none;
-    background: #fed136;
+    background: #006600;
 }
 
 img::selection {
@@ -602,5 +600,5 @@ img::-moz-selection {
 }
 
 body {
-    webkit-tap-highlight-color: #fed136;
+    webkit-tap-highlight-color: #006600;
 }
