@@ -266,8 +266,33 @@ fieldset[disabled] .btn-xl.active {
 header {
     text-align: center;
     color: #fff;
-    background-attachment: scroll;
+}
+
+header .img1 {
     background-image: url(../img/header-bg.jpg);
+    background-attachment: scroll;
+    background-position: center center;
+    background-repeat: none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+header .img2 {
+    background-image: url(../img/header-bg2.jpg);
+    background-attachment: scroll;
+    background-position: center center;
+    background-repeat: none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+header .img3 {
+    background-image: url(../img/header-bg3.jpg);
+    background-attachment: scroll;
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;

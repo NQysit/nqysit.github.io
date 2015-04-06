@@ -11,7 +11,8 @@
 }
 
 footer {
-    color: #222;
+    //color: #222;
+    color: #000;
 }
 
 footer h3 {
@@ -19,7 +20,8 @@ footer h3 {
 }
 
 footer a{
-    color: #222;
+    //color: #222;
+    color: #000;
 }
 
 footer a:hover,
@@ -31,7 +33,8 @@ footer a:active
 
 .footer-above {
     padding-top: 50px;
-    background-color: #555;
+    //background-color: #555;
+    background-color: #404b50;
 }
 
 .footer-col {
@@ -41,6 +44,7 @@ footer a:active
 .footer-below {
     padding: 25px 0;
     background-color: #222;
+    //background-color: #203040;
     color: #006600;
 }
 
